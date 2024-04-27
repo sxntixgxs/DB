@@ -118,3 +118,4 @@ INSERT INTO area_parque (nombre, extension, id_parque) VALUES ('Nevados', 2000.5
 INSERT INTO area_parque (nombre, extension, id_parque) VALUES ('Selva Amazónica', 3000.25, 3);
 INSERT INTO area_parque (nombre, extension, id_parque) VALUES ('Páramo', 1000.75, 4);
 INSERT INTO area_parque (nombre, extension, id_parque) VALUES ('Serranía', 2500.00, 5);
+    
