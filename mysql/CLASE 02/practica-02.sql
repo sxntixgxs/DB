@@ -89,11 +89,10 @@ CREATE TABLE IF NOT EXISTS entrada(
 
 -- data
 
--- Inserting data into the entidad table
 INSERT INTO entidad (nombre) VALUES ('Ministerio de Ambiente y Desarrollo Sostenible');
 INSERT INTO entidad (nombre) VALUES ('Parques Nacionales Naturales de Colombia');
 
--- Inserting data into the departamento table
+
 INSERT INTO departamento (nombre, id_entidad) VALUES ('Amazonas', 2);
 INSERT INTO departamento (nombre, id_entidad) VALUES ('Antioquia', 2);
 INSERT INTO departamento (nombre, id_entidad) VALUES ('Boyacá', 2);
@@ -105,14 +104,12 @@ INSERT INTO departamento (nombre, id_entidad) VALUES ('Meta', 2);
 INSERT INTO departamento (nombre, id_entidad) VALUES ('Nariño', 2);
 INSERT INTO departamento (nombre, id_entidad) VALUES ('Putumayo', 2);
 
--- Inserting data into the parque table
 INSERT INTO parque (nombre, fecha_apertura) VALUES ('Parque Nacional Natural Tayrona', '2005-11-17');
 INSERT INTO parque (nombre, fecha_apertura) VALUES ('Parque Nacional Natural Los Nevados', '1974-08-23');
 INSERT INTO parque (nombre, fecha_apertura) VALUES ('Parque Nacional Natural Amacayacu', '1975-07-02');
 INSERT INTO parque (nombre, fecha_apertura) VALUES ('Parque Nacional Natural El Cocuy', '1977-12-20');
 INSERT INTO parque (nombre, fecha_apertura) VALUES ('Parque Nacional Natural Chiribiquete', '1989-06-21');
 
--- Inserting data into the area_parque table
 INSERT INTO area_parque (nombre, extension, id_parque) VALUES ('Zona Costera', 1500.75, 1);
 INSERT INTO area_parque (nombre, extension, id_parque) VALUES ('Nevados', 2000.50, 2);
 INSERT INTO area_parque (nombre, extension, id_parque) VALUES ('Selva Amazónica', 3000.25, 3);
